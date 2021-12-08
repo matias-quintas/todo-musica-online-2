@@ -1,3 +1,5 @@
 .my-link {
   font-size: 18px;
   font-weight: 500; }
+  .my-link:hover {
+    color: #ffca2c !important; }

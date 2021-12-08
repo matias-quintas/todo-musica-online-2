@@ -4,4 +4,7 @@ $font-weight: 500;
 .my-link {
     font-size: $font-18px;
     font-weight: $font-weight;
+    &:hover {
+        color: #ffca2c !important;
+    }
 }
