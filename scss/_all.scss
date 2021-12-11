@@ -1,0 +1,30 @@
+$font-18px: 18px;
+$font-weight: 500;
+
+.my-link {
+    font-size: $font-18px;
+    font-weight: $font-weight;
+    &:hover {
+        color: #ffca2c !important;
+    }
+}
+
+.textCenter {
+    text-align: center;
+    font-size: $font-18px + 8px;
+}
+
+.titleSection {
+    @extend .textCenter;
+    color: darkslategrey;
+    text-transform: uppercase;
+}
+
+@mixin footerModifier ($size, $style) {
+    font-size: $size;
+    text-decoration: $style;
+}
+
+.parragraf {
+    @include footerModifier($font-18px + 10px, underline);
+}

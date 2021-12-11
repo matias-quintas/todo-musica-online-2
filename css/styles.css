@@ -3,3 +3,15 @@
   font-weight: 500; }
   .my-link:hover {
     color: #ffca2c !important; }
+
+.textCenter, .titleSection {
+  text-align: center;
+  font-size: 26px; }
+
+.titleSection {
+  color: darkslategrey;
+  text-transform: uppercase; }
+
+.parragraf {
+  font-size: 28px;
+  text-decoration: underline; }
